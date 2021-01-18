@@ -1,9 +1,17 @@
+# Refs:
+# - https://doc.rust-lang.org/cargo/reference/manifest.html
+# - https://doc.rust-lang.org/cargo/guide/project-layout.html
+# - https://doc.rust-lang.org/cargo/reference/cargo-targets.html
+
 [package]
 name = "paddington"
 version = "0.0.1"
 authors = ["🎷🐛 Lee Ball <lee.cat.ball@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/catleeball/Paddington"
+repository = "https://github.com/catleeball/Paddington"
+description = "Add padding or crop an image to fit an aspect ratio."
 
 [dependencies]
