@@ -15,3 +15,8 @@ repository = "https://github.com/catleeball/Paddington"
 description = "Add padding or crop an image to fit an aspect ratio."
 
 [dependencies]
+lazy_static = "^1.4.0"
+regex = "^1.4.3"
+log = "^0.4.13"
+stderrlog = "^0.5.1"
+structopt = "^0.3.21"
